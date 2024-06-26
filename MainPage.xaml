@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlgoritmoLangosta.MainPage">
+
+    <StackLayout Padding="40">
+        <Label Text="Algoritmo La Langosta Ahumada"
+               HorizontalTextAlignment="Center"
+               TextColor="Black"/>
+        <Entry x:Name="entryNP" Placeholder="Digite Numeo De Platos" />
+        <Entry x:Name="entryPago" Placeholder="Total A Pagar" />
+        <Button Text="Tocar para calcular el pago" 
+                BackgroundColor="LightPink"
+                TextColor="Black"
+                Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
